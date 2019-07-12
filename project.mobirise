@@ -150,7 +150,7 @@
             }
           },
           "_name": "gallery3",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#cccccc\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#cccccc\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rw1XlDygrY",
           "_protectedParams": [
             "text_all",
@@ -175,7 +175,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>البوابة الوطنية سعودي</i></b>",
+                "caption": "<b><i><a href=\"https://www.saudi.gov.sa/wps/portal/snp/main\" target=\"_blank\">البوابة الوطنية سعودي</a></i></b>",
                 "active": true
               },
               {
@@ -188,7 +188,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://www.absher.sa/portal/landing.html\" class=\"text-white\"><b><i>وزارة الداخلية</i></b></a>",
+                "caption": "<a href=\"https://www.moi.gov.sa/\" class=\"text-white\" target=\"_blank\"><b><i>وزارة الداخلية</i></b></a>",
                 "active": false
               },
               {
@@ -196,12 +196,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100320.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100370.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-5",
-                "caption": "<b><i>وزارة العدل</i></b>",
+                "caption": "<b><i><a href=\"https://www.moj.gov.sa/ar/pages/default.aspx\" target=\"_blank\">وزارة العدل</a></i></b>",
                 "active": false
               },
               {
@@ -209,12 +209,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100321.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100371.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "<b><i>وزارة الخارجية</i></b>",
+                "caption": "<b><i><a href=\"https://www.mofa.gov.sa/EServ/ServiceCatalog/Pages/default.aspx\" target=\"_blank\">وزارة الخارجية</a></i></b>",
                 "active": false
               },
               {
@@ -222,12 +222,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100322.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100372.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "<b><i>وزارة العمل</i></b>",
+                "caption": "<b><i><a href=\"https://mlsd.gov.sa/\" target=\"_blank\">وزارة العمل</a></i></b>",
                 "active": false
               },
               {
@@ -235,12 +235,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100323.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100373.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>أبشر</i></b>",
+                "caption": "<b><i><a href=\"https://www.absher.sa/portal/landing.html\" target=\"_blank\">أبشر</a></i></b>",
                 "active": false
               },
               {
@@ -248,12 +248,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100324.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100374.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>التأمينات الاجتماعية</i></b>",
+                "caption": "<b><i><a href=\"https://www.gosi.gov.sa/GOSIOnline/GOSIOnlineHomepage\" target=\"_blank\">التأمينات الاجتماعية</a></i></b>",
                 "active": false
               },
               {
@@ -261,12 +261,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100325.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100375.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "<b><i>أمانة المنطقة الشرقية</i></b>",
+                "caption": "<b><i><a href=\"https://eamana.gov.sa/\" target=\"_blank\">أمانة المنطقة الشرقية</a></i></b>",
                 "active": false
               },
               {
@@ -274,12 +274,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100326.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100376.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>ا<a href=\"https://www.customs.gov.sa/\" target=\"_blank\">ا</a>لجمارك السعودية&nbsp;</i></b>",
+                "caption": "<b><i><a href=\"https://www.customs.gov.sa/\" target=\"_blank\">االجمارك السعودية&nbsp;</a></i></b>",
                 "active": false
               },
               {
@@ -287,12 +287,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100327.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100377.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i><a href=\"https://register.address.gov.sa/ar/\" target=\"_blank\">ا</a>لعنوان الوطني -بريد واصل</i></b>",
+                "caption": "<b><i><a href=\"https://register.address.gov.sa/ar/\" target=\"_blank\">العنوان الوطني -بريد واصل</a></i></b>",
                 "active": false
               },
               {
@@ -300,12 +300,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100328.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100378.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>بلدي لإصدار رخص البلدية</i></b>",
+                "caption": "<b><i><a href=\"https://balady.gov.sa/\" target=\"_blank\">بلدي لإصدار رخص البلدية</a></i></b>",
                 "active": false
               },
               {
@@ -313,12 +313,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100329.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100379.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>سلامة لإصدار تصاريح الدفاع المدني</i></b>",
+                "caption": "<b><i><a href=\"https://salamah.998.gov.sa/#/landing\" target=\"_blank\">سلامة لإصدار تصاريح الدفاع المدني</a></i></b>",
                 "active": false
               },
               {
@@ -326,12 +326,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-1-250x100330.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-1-250x100380.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/1-250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>طاقات</i></b>",
+                "caption": "<b><i><a href=\"https://www.taqat.sa/\" target=\"_blank\">طاقات</a></i></b>",
                 "active": false
               },
               {
@@ -339,12 +339,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100331.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100381.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>صندوق تنمية الموارد البشرية - هدف</i></b>",
+                "caption": "<b><i><a href=\"https://www.hrdf.org.sa/\" target=\"_blank\">صندوق تنمية الموارد البشرية - هدف</a></i></b>",
                 "active": false
               },
               {
@@ -352,12 +352,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100332.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100382.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>مساند</i></b>",
+                "caption": "<b><i><a href=\"https://www.musaned.com.sa/ar\" target=\"_blank\">مساند</a></i></b>",
                 "active": false
               },
               {
@@ -365,12 +365,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100383.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>مقيم</i></b>",
+                "caption": "<b><i><a href=\"https://portal.elm.sa/\" target=\"_blank\">مقيم</a></i></b>",
                 "active": false
               },
               {
@@ -378,12 +378,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100334.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100384.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "<b><i>تم</i></b>",
+                "caption": "<b><i><a href=\"https://www1.tamm.net.sa/CarPortalWeb/index.jsp\" target=\"_blank\">تم</a></i></b>",
                 "active": false
               },
               {
@@ -391,12 +391,25 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/-250x100335.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-250x100385.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b><i>شموس</i></b>",
+                "caption": "<b><i><a href=\"https://shomoos.org/\" target=\"_blank\">شموس</a></i></b>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-250x100386.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/250x100-250x100.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b><i><a href=\"https://www.saudi.gov.sa/wps/portal/snp/main\" target=\"_blank\">البوابة الوطنية سعودي</a></i></b>",
                 "active": false
               }
             ]
